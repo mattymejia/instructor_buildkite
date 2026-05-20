@@ -38,7 +38,7 @@ steps:
     #         image: "ghcr.io/astral-sh/uv:latest"
     #         propagate-environment: true
     plugins:
-      - cache#1.8.1:
+      - cache#v1.8.1:
           manifest: "pyproject.toml"
           path: ".venv"
           restore: pipeline
